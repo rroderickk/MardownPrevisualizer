@@ -1,0 +1,38 @@
+body {
+    /* background-color: #ff7979 !important; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    background-image: radial-gradient(
+        circle at 90.56% 107.92%,
+        #66305e 0,
+        #4c244c 16.67%,
+        #311737 33.33%,
+        #190420 50%,
+        #000003 66.67%,
+        #000000 83.33%,
+        #000000 100%
+    ) !important;
+    transform: scale(0.99);
+}
+
+#editor {
+    min-height: 1000rem;
+}
+
+.preview:hover {
+    background-color: #fff;
+    opacity: 1;
+}
+
+textarea,
+.preview {
+    min-height: 1000rem;
+}
+
+.preview img {
+    max-width: 22%;
+    border-radius: 10px;
+}
